@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-ARG">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>6A Ejercicio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="ejercicio-6.css"/>
+</head>
+<body>
+    <header>
+        <form>
+            <label>Ingrese la cantidad de familiares que tiene <input type="number" id="cantidad-familiares"/></label>
+            <button type="submit" id="siguiente">Siguiente</button><br>    
+            
+            <p id="errorSiguiente"></p>
+
+            <button type="submit" id="calcular" class="oculto">Calcular</button>
+
+            <button type="reset" id="resetear" class="oculto">Empezar de nuevo</button>
+        </form>
+    </header>
+    <main>
+        <p id="resultados" class="oculto">
+            La mayor edad del grupo familiar es <em id="mayor-edad"></em><br>
+            La menor edad del grupo familiar es <em id="menor-edad"></em><br>
+            El promedio de edad del grupo familiar es <em id="promedio-edad"></em><br>
+        </p>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src='Ejercicio-6-A.js'></script>
+    <script src='pruebas-6.js'></script>
+</body>
+</html>

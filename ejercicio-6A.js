@@ -191,5 +191,7 @@ $botonEmpezarDeCero.onclick = function () {
   document.querySelector("#resultados").className = "oculto";
   $botonEmpezarDeCero.className = "oculto";
   $botonCalcular.className = "oculto";
+  const $cantidadFamiliares = document.querySelector("#cantidad-familiares");
+  $cantidadFamiliares.value = "";
   return false;
 };
